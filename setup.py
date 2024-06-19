@@ -17,7 +17,7 @@ DOCPAGES = (
 
 deps = [
     'ConfigObj >= 4.3',
-    'Twisted >= 20.3.0',
+    'Twisted >=20.3.0,<22',
     'zope.interface',
     'lxml',
     'eventdispatcher == 1.9.4',
